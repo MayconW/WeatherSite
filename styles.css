@@ -1,0 +1,100 @@
+/* Reset CSS baseado no estilo fornecido */
+* {
+  outline: none;
+  border: none;
+  border-collapse: inherit;
+  color: inherit;
+  list-style: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+html, body {
+  height: 100%;
+  font-size: 62.5%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100% !important;
+  margin: 0 auto;
+  color: #a1a1a1;
+  background-color: #1e457e;
+  font-size: 2rem;
+  line-height: 140%;
+  font-weight: 300;
+  position: relative;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  background-size: cover;
+}
+.bg{
+
+  color: white;
+}
+/* Estilos para o contêiner principal */
+.weather-container {
+  text-align: center;
+  position: relative;
+  padding-top: 100px; /* Adicione espaço superior para evitar sobreposição do .bg */
+}
+
+/* Estilos para o fundo com a classe .bg dentro do .weather-container */
+.weather-container .bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #1e457e;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+/* Ajuste na transparência para tornar o fundo menos opaco */
+.weather-container .bg::before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+/* Estilos para a caixa de entrada */
+.box {
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #000000 !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 5px;
+}
+
+/* Estilos para o botão */
+.btn {
+  padding: 7px 30px;
+  border-radius: 5px;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color: #000000 !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background: #275592;
+  border: 1px solid #275592;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #FFFFFF !important;
+  color: #275592 !important;
+}

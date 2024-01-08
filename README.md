@@ -17,6 +17,4 @@ Tecnologias Utilizadas
     JavaScript
     APIs do OpenCage Geocoding e OpenWeatherMap
 
-Observações
 
-Este aplicativo é um projeto simples criado para demonstrar o uso de APIs para obter informações meteorológicas em tempo real.

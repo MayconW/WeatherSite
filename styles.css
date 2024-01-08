@@ -1,4 +1,4 @@
-/* Reset CSS baseado no estilo fornecido */
+
 * {
   outline: none;
   border: none;
@@ -37,14 +37,14 @@ body {
 
   color: white;
 }
-/* Estilos para o contêiner principal */
+
 .weather-container {
   text-align: center;
   position: relative;
-  padding-top: 100px; /* Adicione espaço superior para evitar sobreposição do .bg */
+  padding-top: 100px;
 }
 
-/* Estilos para o fundo com a classe .bg dentro do .weather-container */
+
 .weather-container .bg {
   z-index: -1;
   position: absolute;
@@ -60,7 +60,7 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-/* Ajuste na transparência para tornar o fundo menos opaco */
+
 .weather-container .bg::before {
   position: absolute;
   display: block;
@@ -69,7 +69,7 @@ body {
   content: "";
 }
 
-/* Estilos para a caixa de entrada */
+
 .box {
   margin-top: 10px;
   border-radius: 5px;
@@ -79,7 +79,7 @@ body {
   padding: 5px;
 }
 
-/* Estilos para o botão */
+
 .btn {
   padding: 7px 30px;
   border-radius: 5px;

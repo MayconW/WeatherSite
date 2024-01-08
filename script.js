@@ -10,15 +10,14 @@ function traduzirDescricao(descricao) {
       'thunderstorm': 'Trovoadas',
       'snow': 'Neve',
       'mist': 'Nevoeiro',
-      // Adicione outras traduções conforme necessário para outras condições
+
     };
   
-    // Verifica se a descrição está presente no mapeamento
+
     if (traducoes.hasOwnProperty(descricao)) {
       return traducoes[descricao];
     }
-  
-    // Se não houver uma tradução, retorna a descrição original
+
     return descricao;
   }
 
@@ -27,7 +26,7 @@ function traduzirDescricao(descricao) {
 async function fetchWeather() {
   const cityName = document.getElementById('city').value;
 
-  // Verifica se o campo de cidade está vazio
+
   if (!cityName) {
     alert('Por favor, insira o nome da cidade.');
     return;

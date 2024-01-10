@@ -10,6 +10,7 @@ function traduzirDescricao(descricao) {
       'thunderstorm': 'Trovoadas',
       'snow': 'Neve',
       'mist': 'Nevoeiro',
+      'moderate rain': 'Chuva Moderada'
 
     };
   

@@ -12,6 +12,8 @@ function traduzirDescricao(descricao) {
       'mist': 'Nevoeiro',
       'moderate rain': 'Chuva Moderada',
       'thunderstorm with rain': 'Chuva com Trovoada',
+      'light rain': 'Chuva Leve',
+
 
     };
   
